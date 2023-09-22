@@ -4,6 +4,7 @@
     align-items: center;
     gap: 24px ;
     grid-area: experience;
+    max-width: 500px;
     
     p{
         font-size: 18px;
@@ -12,10 +13,24 @@
         color: var(--text-secondary);
         text-align: justify;
     }
+
+    .experience-time{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        flex-direction: column;
+    }
+    
+    
     @media (min-width: 768px){
+
+        .experience-unit{
+            width: 375px;
+        }
         align-items: flex-start;
         p{
-            font-size: 24px;
+            font-size: 20px;
             line-height: 36px;
             text-align: start;
         }
