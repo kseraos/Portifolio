@@ -19,9 +19,8 @@ export default function Home() {
 
                     </div>
                     <SocialBtns/>
-                    <button className="btn-primary">Contato 
-                     <EmailIcon/>
-                    </button>
+                    <a className="btn-primary" href="mailto:kseraos@outlook.com">Entre em Contato<EmailIcon/>
+                    </a>
                 </div>
         
         

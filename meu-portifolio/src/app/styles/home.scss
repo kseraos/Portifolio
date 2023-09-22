@@ -9,6 +9,15 @@
     "btns"
     "experience"
     "info";
+    .buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column ;
+        grid-area: btns; 
+        gap: 24px;
+        width: 100%;
+    }
 
     .btn-primary {
         background: linear-gradient(90deg, #777CF4 2.62%, #F47777 93.38%);
