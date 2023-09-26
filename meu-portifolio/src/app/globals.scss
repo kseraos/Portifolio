@@ -19,5 +19,22 @@ body {
 }
 
 body{
-  background-color: var(--bg-primary);
+
+
+  .teste{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: start;
+    justify-content: space-between;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "navbar"
+        "homepage"
+        "container";
+
+
+  }
+  
+  
 }

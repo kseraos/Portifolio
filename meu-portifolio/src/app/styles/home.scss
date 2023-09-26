@@ -1,12 +1,13 @@
+$bg-primary: #2c2c2c;
 .container {
+    width: 100%;
+    grid-area: container;
     padding: 40px 32px;
     display: grid;
     gap: 24px;
     justify-items: center;
     grid-template-rows: repeat(4, auto);
     grid-template-areas: 
-    "navbar"
-    "homepage"
     "header"
     "btns"
     "experience"
@@ -21,31 +22,11 @@
         width: 100%;
     }
 
-    .btn-primary {
-        background: linear-gradient(90deg, #777CF4 2.62%, #F47777 93.38%);
-        border-radius: 24px;
-        width: 325px;
-        padding: 12px;
-        text-align: center;
-        text-decoration: none;
-
-        color: var(--text-primary);
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 30px;
-        text-transform: uppercase;
-        border: none;
-        
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        justify-content: center;
-    }
-
 }
 
 @media (min-width: 768px){
     .container {
+        background-color: darken($bg-primary, 2%);
         padding: 70px 60px;
         height: 100vh;
         grid-template-rows: fit-content(100%);
@@ -58,5 +39,7 @@
         "homepage homepage"
         "header info"
         "experience btns";
+
+        
     }
 }

@@ -9,26 +9,21 @@ import Homepage from "./components/Homepage/Homepage"
 
 export default function Home() {
   return (
-    <div>
+    <main className="teste">
     <Navbar/>
-    <main className="container">
-        <Homepage/>
+    <Homepage/>
+    <div className="container">
         <Header/>
         <Experience/>
         <Info/>
-    
                  <div className="buttons">
                     <div className="social">
-
-                    </div>
-                   
-                    <a className="btn-primary" href="mailto:kseraos@outlook.com">Entre em Contato<EmailIcon/>
-                    </a>
+                    </div>  
                 </div>
         
         
       
-    </main>
     </div>
+    </main>
   )
 }
