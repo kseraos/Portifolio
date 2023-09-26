@@ -5,7 +5,8 @@
     justify-items: center;
     grid-template-rows: repeat(4, auto);
     grid-template-areas: 
-    "start"
+    "navbar"
+    "homepage"
     "header"
     "btns"
     "experience"
@@ -53,7 +54,8 @@
         justify-items: start;
         justify-content: space-between;
         grid-template-areas: 
-        "start start"
+        "navbar navbar"
+        "homepage homepage"
         "header info"
         "experience btns";
     }

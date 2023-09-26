@@ -1,19 +1,18 @@
-
+import Navbar from "./components/NavBar/NavBar"
 import { Experience } from "./components/experience/experience"
 import { Header } from "./components/header/header"
 import { EmailIcon } from "./components/icons/email-icon"
 import Info from "./components/information/information"
 import "./styles/home.scss"
-import Start from "./components/start/start"
-
+import Homepage from "./components/Homepage/Homepage"
 
 
 export default function Home() {
   return (
+    <div>
+    <Navbar/>
     <main className="container">
-
-     
-        <Start/>
+        <Homepage/>
         <Header/>
         <Experience/>
         <Info/>
@@ -30,5 +29,6 @@ export default function Home() {
         
       
     </main>
+    </div>
   )
 }
