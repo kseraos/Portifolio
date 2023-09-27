@@ -9,7 +9,9 @@ $bg-primary: #2c2c2c;
     grid-template-areas: 
     "navbar"
     "homepage"
-    "projetos";
+    "projetos"
+    "aboutme"
+    "contact";
     // "header info"
     // "experience btns";
     .buttons{
@@ -36,7 +38,10 @@ $bg-primary: #2c2c2c;
         grid-template-areas: 
         "navbar navbar"
         "homepage homepage"
-        "projetos projetos";
+        "projetos projetos"
+        "aboutme aboutme"
+        "contact contact";
+        
         // "header info"
         // "experience btns";
 

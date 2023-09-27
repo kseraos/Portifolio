@@ -6,6 +6,8 @@ import Info from "./components/information/information"
 import "./styles/home.scss"
 import Homepage from "./components/Homepage/Homepage"
 import Projetos from "./components/Projetos/Projetos"
+import AboutMe from "./components/AboutMe/AboutMe"
+import Contact from "./components/Contact/Contact"
 
 
 export default function Home() {
@@ -15,6 +17,8 @@ export default function Home() {
     <Navbar/>
     <Homepage/>
     <Projetos/>
+    <AboutMe/>
+    <Contact/>
     <div className="container">
         {/* <Header/>
         <Experience/>

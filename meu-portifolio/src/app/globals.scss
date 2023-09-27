@@ -18,4 +18,12 @@ body {
   overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgb(31, 31, 31);}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--text-third);
+  border-radius: 10px;
+}
 
